@@ -1,0 +1,1 @@
+for /r %i in (*) do (jar -xvf %i | find /I "extracted: BOOT-INF/lib"  >> %~ni_COTS)
